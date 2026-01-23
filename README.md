@@ -1,8 +1,8 @@
-# 🎨 Image Classification System with Deep Learning
+# Image Classification System with Deep Learning
 
 A production-ready image classification system using transfer learning with ResNet-50. Achieves 94% validation accuracy through optimized data augmentation and fine-tuning strategies.
 
-## 🌟 Features
+## Features
 
 - **Transfer Learning** with pre-trained ResNet-50
 - **Data Augmentation** for improved generalization
@@ -11,7 +11,7 @@ A production-ready image classification system using transfer learning with ResN
 - **Comprehensive** data utilities
 - **Easy-to-use** training and prediction scripts
 
-## 🏗️ Architecture
+## Architecture
 
 ### Model: ResNet-50 with Transfer Learning
 
@@ -33,14 +33,14 @@ Output predictions
 - **Head:** Custom fully-connected layers with dropout
 - **Optimization:** Adam optimizer with learning rate scheduling
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - CUDA-capable GPU (recommended)
 - 8GB+ RAM
 - Dataset in ImageFolder format
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -123,7 +123,7 @@ python predict.py --model models/best_model.pth \
                   --top-k 3
 ```
 
-## 📊 Performance
+## Performance
 
 ### Target Metrics
 
@@ -139,7 +139,7 @@ The model achieves high accuracy through:
 3. **Fine-tuning:** Gradually unfreezing layers
 4. **Regularization:** Dropout (0.3) and early stopping
 
-## 🛠️ Advanced Usage
+## Advanced Usage
 
 ### Custom Training
 
@@ -190,7 +190,7 @@ for result in results:
 python data_utils.py --action check --source ./data
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 image-classification-system/
@@ -208,7 +208,7 @@ image-classification-system/
 └── training_history.json # Training metrics
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Data Augmentation
 
@@ -246,7 +246,7 @@ config = {
 }
 ```
 
-## 📈 Monitoring Training
+## Monitoring Training
 
 Training progress is displayed in real-time:
 
@@ -264,7 +264,7 @@ Results:
 
 Training history is saved to `training_history.json` for analysis.
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### CUDA Out of Memory
 
@@ -288,7 +288,7 @@ Training history is saved to `training_history.json` for analysis.
 3. **Reduce workers:** Adjust `num_workers` in data loaders
 4. **Use smaller model:** Try ResNet-34
 
-## 💡 Tips for Best Results
+## Tips for Best Results
 
 1. **Data Quality:** Clean, properly labeled data is crucial
 2. **Class Balance:** Ensure balanced class distribution
@@ -297,7 +297,7 @@ Training history is saved to `training_history.json` for analysis.
 5. **Patience:** Give model time to converge (20-30 epochs)
 6. **Validation:** Monitor validation metrics to avoid overfitting
 
-## 🚀 Deployment
+## Deployment
 
 ### Export Model for Production
 
@@ -332,13 +332,13 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
 
-## 📚 References
+## References
 
 - **ResNet Paper:** [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - **Transfer Learning:** [How transferable are features in deep neural networks?](https://arxiv.org/abs/1411.1792)
 - **PyTorch Docs:** [https://pytorch.org/docs](https://pytorch.org/docs)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Areas for improvement:
 - Support for more architectures (EfficientNet, ViT)
@@ -347,13 +347,15 @@ Contributions are welcome! Areas for improvement:
 - Explainability (Grad-CAM)
 - Mobile deployment (ONNX)
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+## Author
 
-Built with ❤️ for production ML applications
+Aman Jain
+jamanbuilds@gmail.com
+Built for production ML applications
 
 ---
 
