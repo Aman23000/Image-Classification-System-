@@ -1,3 +1,12 @@
+# 🎨 Image Classification System
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-complete-success.svg)
+
+> Production-ready image classification with ResNet-50 transfer learning
+
 # Image Classification System with Deep Learning
 
 A production-ready image classification system using transfer learning with ResNet-50. Achieves 94% validation accuracy through optimized data augmentation and fine-tuning strategies.
