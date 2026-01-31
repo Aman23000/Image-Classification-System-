@@ -353,9 +353,27 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Aman Jain
-jamanbuilds@gmail.com
-Built for production ML applications
+**Aman Jain**
+- MS Computer Science, Boston University (2025)
+- Email: jamanbuilds@gmail.com
+- LinkedIn: [linkedin.com/in/amanjain]((https://www.linkedin.com/in/aman-jain-09b5331a0/))
+- GitHub: [@aman-j]((https://github.com/Aman23000))
+
+## Acknowledgments
+
+Built as part of my computer vision and deep learning portfolio. 
+Special thanks to the PyTorch and CIFAR-10 communities.
+
+## Citation
+
+If you use this code in your research or project, please cite:
+```
+@software{jain2025imageclassification,
+  author = {Jain, Aman},
+  title = {Image Classification System with ResNet-50 Transfer Learning},
+  year = {2025},
+  url = {https://github.com/YOUR_USERNAME/image-classification-system}
+}
 
 ---
 
